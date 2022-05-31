@@ -35,4 +35,8 @@ div.img-box{
     div.container{
         max-width: 768px;
     }
+
+    button.btn{
+        max-width: 25%;
+    }
 }
