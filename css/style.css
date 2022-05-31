@@ -21,3 +21,18 @@ header div{
 .ms_bg_dark_grey{
     background-color: #2C3E50;
 }
+
+div.img-box{
+    width: 50%;
+}
+
+
+@media screen and (min-width: 768px){
+    div.img-box{
+        width: 20%;
+    }
+
+    div.container{
+        max-width: 768px;
+    }
+}
