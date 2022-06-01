@@ -2,8 +2,6 @@ header{
     background-color: #2C3E50;
 }
 
-
-
 .ms_bg_green{
     background-color: #1ABC9C;
 }
@@ -23,6 +21,11 @@ header{
 
 div.img-box{
     width: 50%;
+}
+
+input.rounded{
+    background-color: #1ABC9C;
+
 }
 
 
