@@ -28,12 +28,43 @@ div.img-box{
 
 
 .ms_star-bar{
-    width: 80px;
-    height: 2px;
-    border-radius: 4px;
-    background-color: white;
-    
+    margin: 20px auto;
+    max-width: 300px;
+    min-width: 100%;
+    color: white;
 }
+
+.ms_star-bar::after,
+.ms_star-bar::before{
+    content:  '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.ms_star-dark{
+    margin: 20px auto;
+    max-width: 300px;
+    min-width: 100%;
+    color: black;
+}
+
+.ms_star-dark::after,
+.ms_star-dark::before{
+    content:  '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
+    vertical-align: middle;
+}
+
+
+
 
 
 
