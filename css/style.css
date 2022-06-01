@@ -1,9 +1,8 @@
-header div{
-    height: 70px;
-    width: 100%;
+header{
     background-color: #2C3E50;
-    color: white;
 }
+
+
 
 .ms_bg_green{
     background-color: #1ABC9C;
